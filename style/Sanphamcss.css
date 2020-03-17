@@ -566,6 +566,11 @@ margin:0 auto;
 	.box-adduser-img{
 		width: 100% !important
 	}
+	.sub-menu{
+  
+   position: unset !important;
+ 
+ }
 	.nav-link {
 		padding: 2px 0 0px 15px !important;
 		color: #000 !important;
