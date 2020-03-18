@@ -10,6 +10,11 @@
     .header-top{
         display: none !important;
     }
+    .sub-menu{
+  
+   position: unset !important;
+ 
+ }
 }
 *{
 	margin: 0;
@@ -566,11 +571,6 @@ margin:0 auto;
 	.box-adduser-img{
 		width: 100% !important
 	}
-	.sub-menu{
-  
-   position: unset !important;
- 
- }
 	.nav-link {
 		padding: 2px 0 0px 15px !important;
 		color: #000 !important;
@@ -613,7 +613,7 @@ margin:0 auto;
    bottom: 0;
    width: 80%;
    background-color: #fff;
-	z-index: 9999999999999999999999;
+	z-index: 9999999999999999999999 !important;
 	overflow: scroll !important;
 }
 .btn-hoivien22{
@@ -736,33 +736,18 @@ margin:0 auto;
 	display: flex;
 }
 .main-people-box-img{
-	align-items: center;
+	align-items
 }
-.main-people-box .main-people-box-img img{
-	border-radius: 50%;
-	margin-left:1rem;
-	float: left;
-	margin-top: 1rem;
-}
-.content-box-people{
-	width: 50%;float: left;
+
 }
 .main-people-box-text{
-	font-size: 20px;
-	font-weight: bold;
-	color:white;
-	line-height: 20px;
-	text-align: justify;
-	padding-left: 1rem;
-	padding-top: 1rem;
+	font-size: 14px !important;
+	color:white !important;
+	text-align: center;
 }
 
-.main-people-box-text p{
-	display: inline-block;
-	
-}
 
-}
+
 /**********************end Nhan xet*****************************/
 
 /**********************Share*****************************/
@@ -805,7 +790,11 @@ margin:0 auto;
 	color: black;
 }
 .Share-body-left-p{
-	padding: 0 3rem;
+	padding: 0 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 }
 /**********************end Share*****************************/
 
@@ -901,6 +890,7 @@ margin:0 auto;
 /********************** min 768 px *****************************/
 /********************** end min 768 px *****************************/
 /********************** max 768 px *****************************/
+.main-peo
 @media only screen and (max-width: 768px){
 	
 .imgmain{
@@ -1257,4 +1247,125 @@ border-bottom: 1px solid;
     height: 150px;
     line-height: 150px;
 
+}
+.textdecoration{
+	  color: white;
+    text-decoration: none;
+   }
+.send{
+    background-color: black !important;
+    color: white !important;
+}
+.two{
+    margin: 0 0 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+#home-five {
+    width : 100%;
+    height : auto;
+    padding : 0;
+    }
+#home-five .owl-carouselfive {
+    display: flex;
+    position: relative;
+    width: 100%;  
+}
+
+#home-five a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid #ff789e;
+    outline: 0px !important;
+    text-transform: uppercase !important;
+    font-size: 14px;
+    color: #FF789E
+}
+.btnViewProduct:hover{
+    background-color: #ee4579;
+    color: white;
+}
+.product-actions {
+    padding: 5px 0 0;
+}
+#home-five li {
+    border-bottom: 1px dashed #e5e5e5;
+    display: block;
+    padding: 10px;
+    color: #222222;
+    font-size: 14px;
+    margin-bottom: 0.25em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#home-five ul, ol {
+    margin: 0 0 0px 0px;
+    padding: 0;
+}
+#home-five ul {
+    display: block;
+    list-style-type: disc;
+
+}
+.no-bullets {
+    list-style: none outside;
+    margin-left: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+.btnType2 {
+    background: #ff789e;
+    color: #ffffff;
+    border-color: #FF789E;
+    outline: 0px;
+    margin: 0;
+
+}
+.btnType2:hover {
+    background:#FF4579;
+}
+ button {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    color: #222222;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.phone {
+    color: black;
+    text-decoration: none;
+}
+.phone:hover{
+    color: #ff789e !important;
+    text-decoration: none;
+}
+.boder123 {
+    width: 100% !important;
+}
+ul {
+	list-style: none !important;
+}
+@media and screen (max-width: 768px) {
+	.boder123 {
+		padding-top: 20px !important;
+		text-align: center !important;
+	}
+	img {
+		max-width: 100% !important;
+		text-align: center;
+	}
+}
+.rad {
+	border-radius: 50% !important;
 }
